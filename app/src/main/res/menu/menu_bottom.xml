@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/beranda"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/cari"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_account"
+        android:title="@string/akun"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white" />
+</menu>
